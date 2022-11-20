@@ -14,5 +14,9 @@
     "@libp2p/mplex": "^7.0.0",
     "@libp2p/tcp": "^6.0.2",
     "libp2p": "^0.40.0"
+  },
+  "devDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
