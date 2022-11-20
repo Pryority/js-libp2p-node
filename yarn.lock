@@ -348,6 +348,22 @@
     uint8arraylist "^2.1.1"
     uint8arrays "^4.0.2"
 
+"@libp2p/tcp@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@libp2p/tcp/-/tcp-6.0.2.tgz#388ab7e94df3987bc445e49536204453b0642fb1"
+  integrity sha512-awNYXnJhzsWGGcS3tOl24fW5/6F5ZpWnO066XTEjl+u845UIgnwVamifNJUYw1okwJ83WDu7ERv/4a7plh77BA==
+  dependencies:
+    "@libp2p/interface-connection" "^3.0.2"
+    "@libp2p/interface-transport" "^2.0.0"
+    "@libp2p/interfaces" "^3.0.3"
+    "@libp2p/logger" "^2.0.0"
+    "@libp2p/utils" "^3.0.2"
+    "@multiformats/mafmt" "^11.0.3"
+    "@multiformats/multiaddr" "^11.0.0"
+    abortable-iterator "^4.0.2"
+    err-code "^3.0.1"
+    stream-to-it "^0.2.2"
+
 "@libp2p/tracked-map@^2.0.1":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@libp2p/tracked-map/-/tracked-map-2.0.2.tgz#3ff2d34607a6cfbed95b0dc6a360631f99938df9"
@@ -372,7 +388,7 @@
     private-ip "^2.1.1"
     uint8arraylist "^2.3.2"
 
-"@multiformats/mafmt@^11.0.2":
+"@multiformats/mafmt@^11.0.2", "@multiformats/mafmt@^11.0.3":
   version "11.0.3"
   resolved "https://registry.yarnpkg.com/@multiformats/mafmt/-/mafmt-11.0.3.tgz#278bcf23ca7c954a9a04500527c011a6ce14f0cb"
   integrity sha512-DvCQeZJgaC4kE3BLqMuW3gQkNAW14Z7I+yMt30Ze+wkfHkWSp+bICcHGihhtgfzYCumHA/vHlJ9n54mrCcmnvQ==
@@ -578,6 +594,11 @@ freeport-promise@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/freeport-promise/-/freeport-promise-2.0.0.tgz#11e4f81e24d680b88a20c15b2103551f4b6663d8"
   integrity sha512-dwWpT1DdQcwrhmRwnDnPM/ZFny+FtzU+k50qF2eid3KxaQDsMiBrwo1i0G3qSugkN5db6Cb0zgfc68QeTOpEFg==
+
+get-iterator@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/get-iterator/-/get-iterator-1.0.2.tgz#cd747c02b4c084461fac14f48f6b45a80ed25c82"
+  integrity sha512-v+dm9bNVfOYsY1OrhaCrmyOcYoSeVvbt+hHZ0Au+T+p1y+0Uyj9aMaGIeUTT6xdpRbWzDeYKvfOslPhggQMcsg==
 
 get-iterator@^2.0.0:
   version "2.0.0"
@@ -1149,6 +1170,13 @@ sprintf-js@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
   integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
+
+stream-to-it@^0.2.2:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/stream-to-it/-/stream-to-it-0.2.4.tgz#d2fd7bfbd4a899b4c0d6a7e6a533723af5749bd0"
+  integrity sha512-4vEbkSs83OahpmBybNJXlJd7d6/RxzkkSdT3I0mnGt79Xd2Kk+e1JqbvAvsQfCeKj3aKb0QIWkyK3/n0j506vQ==
+  dependencies:
+    get-iterator "^1.0.2"
 
 strip-final-newline@^2.0.0:
   version "2.0.0"
